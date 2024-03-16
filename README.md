@@ -61,6 +61,11 @@ Enter the URL of the Web Data Connector `../html\NYHealthData.html` or `../html\
 4. Click the `Start Interactive Phase` button to display the user interface for the `NY Health Data WDC`[Screenshot](./Screenshot/Screenshot%20(130).png).<br>
 Click the Get NY Health Data! button [Screenshot](./Screenshot/Screenshot%20(131).png) and [Screenshot](./Screenshot/Screenshot%20(132).png). <br>
 5. Click the Fetch Table Data button to download the data and display it in a table [Screenshot](./Screenshot/Screenshot%20(133).png). <br>
-3. Click the "Connect to Tableau" button.
-4. In Tableau, go to Connect > To a Server > more >Web Data Connector.
-6. Follow the prompts to connect and load data into Tableau.
+- To use a WDC in Tableau Desktop, complete the following steps:
+6. Click the "Connect to Tableau" button.
+7. In Tableau, go to Connect > To a Server > more >Web Data Connector.
+8. Follow the prompts to connect and load data into Tableau.
+
+**Important:** Tableau Web Data Connector 2.0 [see the WDC 2.0 documentation](https://tableau.github.io/webdataconnector/docs/wdc_use_in_tableau.html) (this version) is being deprecated at Tableau 2023.1 and eventually retired. <br>We will still support WDC 2.0 until its last compatible version of Tableau (Tableau 2022.4) goes End of Life and is no longer supported.
+
+For information about Tableau Web Data Connector 3.0, [see the WDC 3.0 documentation](https://help.tableau.com/current/api/webdataconnector/en-us/index.html).
