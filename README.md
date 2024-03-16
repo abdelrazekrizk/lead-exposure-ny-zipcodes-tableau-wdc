@@ -57,14 +57,10 @@ Open a browser and navigate to the following URL:
 http://localhost:8888/Simulator/index.html
 
 3. Add Connector URL <br>
-Enter the URL of the Web Data Connector`../html\NYHealthData.html` or `../html\earthquakeUSGS.html`
-4. Click the `Start Interactive Phase` button to display the user interface for the `NY Health Data WDC`.<br>
-Click the Get NY Health Data! button.
-
-Click the Fetch Table Data button to download the data and display it in a table.
+Enter the URL of the Web Data Connector `../html\NYHealthData.html` or `../html\earthquakeUSGS.html`[Screenshot](./Screenshot/Screenshot%20(129).png)<br>
+4. Click the `Start Interactive Phase` button to display the user interface for the `NY Health Data WDC`[Screenshot](./Screenshot/Screenshot%20(130).png).<br>
+Click the Get NY Health Data! button [Screenshot](./Screenshot/Screenshot%20(131).png) and [Screenshot](./Screenshot/Screenshot%20(132).png). <br>
+5. Click the Fetch Table Data button to download the data and display it in a table [Screenshot](./Screenshot/Screenshot%20(133).png). <br>
 3. Click the "Connect to Tableau" button.
-4. In Tableau, go to Connect > To a Server > Web Data Connector.
-5. Enter the URL of the Web Data Connector (usually `http://localhost:8888` if running locally).
-Open a browser and navigate to the following URL:
-http://localhost:8888/Simulator/index.html
+4. In Tableau, go to Connect > To a Server > more >Web Data Connector.
 6. Follow the prompts to connect and load data into Tableau.
