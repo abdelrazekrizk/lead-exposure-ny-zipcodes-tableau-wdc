@@ -14,7 +14,7 @@
             { id: "15_plus_mcg_dl", alias: "15 + mcg/dL", dataType: tableau.dataTypeEnum.int },
             { id: "total_elevated_blood_levels", alias: "Total Elevated Blood Levels", dataType: tableau.dataTypeEnum.int },
             { id: "percent", alias: "Percent", dataType: tableau.dataTypeEnum.float },
-            { id: "rate_per_1000", alias: "Rate per 1,000", dataType: tableau.dataTypeEnum.float },
+            { id: "rate_per_1000", alias: "Rate per 1,000", dataType: tableau.dataTypeEnum.int },
             { id: "zip_code_location", alias: "Zip Code Location", dataType: tableau.dataTypeEnum.geometry },
             { id: "county_location", alias: "County Location", dataType: tableau.dataTypeEnum.geometry }
         ];
@@ -29,7 +29,7 @@
     };
 
     myConnector.getData = function (table, doneCallback) {
-        $.getJSON("https://health.data.ny.gov/resource/d54z-enu8.json?county=Suffolk", function (resp) {
+        $.getJSON("https://health.data.ny.gov/resource/d54z-enu8.json", function (resp) {
             var tableData = [];
 
             // Iterate over the JSON object
