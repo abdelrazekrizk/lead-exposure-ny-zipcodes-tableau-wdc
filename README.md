@@ -24,7 +24,9 @@ table presents the dataset columns along with their API column names, data types
 | Zip Code Location    | zip_code_location   | location  | Centroid location for zip code where child lives.                                                                                                    |                       |
 | County Location      | county_location     | location  | Latitude and Longitude of New York State County's centroid                                                                                           |                       |
 
-
+**Data Provided by**<br>
+[Health Data NY API, powered by Socrata](https://www.opendatanetwork.com/dataset/health.data.ny.gov/d54z-enu8)<br>
+[New York State Department of Health](https://health.data.ny.gov/Health/Childhood-Blood-Lead-Testing-and-Elevated-Incidenc/d54z-enu8/about_data)<br>
 **Confirm prerequisites**<br>
 You’re going to need a couple of things before we get started. Make sure you have the following dependencies installed:<br>
 `Git`<br>
